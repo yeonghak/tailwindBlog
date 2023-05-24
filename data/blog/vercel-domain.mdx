@@ -1,0 +1,24 @@
+---
+title: Vercel设置自定义域名
+date: '2023-05-24'
+tags: ['Vercel', 'Domain']
+draft: false
+summary: Vercel提供一个三级域名，如何设置为自定义域名
+images: ['/static/images/canada/mountains.jpg', '/static/images/canada/mountains.jpg']
+---
+
+## Vercel 配置
+
+在 Vercel（Settings > Domains）中添加域名。
+
+![domain1](/static/images/domain1.png)
+
+## 域名解析
+
+在第三方域名服务商中，添加 CNAME 记录，让 Vercel 解析当前域名。
+
+![domain2](/static/images/domain2.png)
+
+```
+cname.vercel-dns.com
+```
