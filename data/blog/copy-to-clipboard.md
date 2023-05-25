@@ -1,7 +1,7 @@
 ---
 title: "navigator.clipboard: Cannot read properties of undefined (reading 'writeText')"
 date: '2023-05-23'
-tags: ['javascript']
+tags: ['javascript', '报错解决']
 draft: false
 summary: 在 Chrome 的 DevTools 控制台下执行 navigator.clipboard 返回 undefined
 ---

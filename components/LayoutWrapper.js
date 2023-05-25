@@ -6,6 +6,7 @@ import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
+import AdBanner from './AdBanner'
 
 const LayoutWrapper = ({ children }) => {
   return (
@@ -44,6 +45,10 @@ const LayoutWrapper = ({ children }) => {
             <MobileNav />
           </div>
         </header>
+        {/* <AdBanner
+          client={process.env.GOOGLE_ADSENSE_CLIENT}
+          slot={process.env.GOOGLE_ADSENSE_SLOT}
+        /> */}
         <main className="mb-auto">{children}</main>
         <Footer />
       </div>

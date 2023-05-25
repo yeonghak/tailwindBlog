@@ -1,16 +1,16 @@
 ---
 title: Vercel部署
 date: '2023-05-24'
-tags: ['nextjs', 'vercel']
+tags: ['next-js', 'vercel']
 draft: false
 summary: 如何把项目部署到Vercel？
 ---
 
 ## 新建仓库
 
-新建仓库 将代码上传到githup 或者 gitlab 上
+新建仓库 将代码上传到 githup 或者 gitlab 上
 
-## 创建Vercel账号
+## 创建 Vercel 账号
 
 https://vercel.com/signup
 
