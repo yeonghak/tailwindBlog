@@ -45,10 +45,10 @@ const LayoutWrapper = ({ children }) => {
             <MobileNav />
           </div>
         </header>
-        {/* <AdBanner
+        <AdBanner
           client={process.env.GOOGLE_ADSENSE_CLIENT}
           slot={process.env.GOOGLE_ADSENSE_SLOT}
-        /> */}
+        />
         <main className="mb-auto">{children}</main>
         <Footer />
       </div>
