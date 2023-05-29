@@ -1,7 +1,7 @@
 const headerNavLinks = [
-  { href: '/blog', title: 'Blog' },
-  { href: '/tags', title: 'Tags' },
-  { href: 'https://www.duluwa.com', title: 'Site' },
+  { href: '/blog', title: '文章' },
+  { href: '/tags', title: '标签' },
+  { href: 'https://www.duluwa.com', title: '导航' },
   // { href: '/projects', title: 'Projects' },
   // { href: '/about', title: 'About' },
 ]

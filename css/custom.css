@@ -1,3 +1,15 @@
-body { word-break: break-word; }
+body {
+  word-break: break-word;
+}
 
-.tag-item { padding: 4px 6px; background-color: aliceblue; border-radius: 2px; }
+.tag-item {
+  padding: 4px 6px;
+  background-color: aliceblue;
+  border-radius: 2px;
+}
+
+.selected,
+.selected:is(.dark .dark\:text-gray-100) {
+  color: rgb(20 184 166 / var(--tw-text-opacity));
+  font-weight: bold;
+}

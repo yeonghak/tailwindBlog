@@ -1,6 +1,6 @@
 const siteMetadata = {
   title: 'Duluwa Blog',
-  author: 'Yeonghak',
+  author: 'Duluwa',
   headerTitle: 'Duluwa Blog',
   description: 'A blog created with Next.js and Tailwind.css',
   language: 'zh-CN',
