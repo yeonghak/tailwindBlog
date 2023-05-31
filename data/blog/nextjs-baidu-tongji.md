@@ -69,7 +69,9 @@ import { Router } from 'next/router'
 Router.events.on('routeChangeComplete', (url) => {
   try {
     window._hmt.push(['_trackPageview', url])
-  } catch (e) {}
+  } catch (e) {
+    console.error(e)
+  }
 })
 ```
 
