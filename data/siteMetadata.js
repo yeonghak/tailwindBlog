@@ -1,8 +1,10 @@
 const siteMetadata = {
-  title: 'Duluwa Blog',
-  author: 'Duluwa',
-  headerTitle: 'Duluwa Blog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'Duluwa DEV - 朝鲜族网站开发笔记',
+  author: 'Duluwa DEV - 朝鲜族网站开发笔记',
+  headerTitle: 'Duluwa DEV',
+  description: 'Duluwa DEV - 朝鲜族网站开发笔记，包含React, php, javascript等技术文章',
+  keywords:
+    'duluwa, 朝鲜族网站, 朝鲜族网站开发, 开发笔记, React, NextJs, gnuboard, php, javascript, npm, yarn, nginx, 前端开发',
   language: 'zh-CN',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',

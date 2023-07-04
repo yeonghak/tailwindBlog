@@ -1,5 +1,5 @@
 ---
-name: Duluwa
+name: duluwa.com
 avatar: /static/images/avatar.png
 # occupation: Professor of Atmospheric Science
 # company: Stanford University

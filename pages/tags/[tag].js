@@ -46,6 +46,7 @@ export default function Tag({ posts, tag }) {
   return (
     <>
       <TagSEO
+        keywords={siteMetadata.keywords}
         title={`${tag} - ${siteMetadata.author}`}
         description={`${tag} tags - ${siteMetadata.author}`}
       />

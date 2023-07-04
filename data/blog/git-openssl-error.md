@@ -1,9 +1,9 @@
 ---
-title: 'OpenSSL SSL_read: Connection was reset, errno 10054'
+title: 'OpenSSL SSL_read: Connection was reset, error 10054'
 date: '2023-05-25'
 tags: ['git', '报错解决']
 draft: false
-summary: 'OpenSSL SSL_read: Connection was reset, errno 10054'
+summary: 'OpenSSL SSL_read: Connection was reset, error 10054'
 ---
 
 ## 报错
@@ -11,7 +11,7 @@ summary: 'OpenSSL SSL_read: Connection was reset, errno 10054'
 `git push` 时 报错。
 
 ```bash
-OpenSSL SSL_read: Connection was reset, errno 10054
+OpenSSL SSL_read: Connection was reset, error 10054
 ```
 
 ## 解决
